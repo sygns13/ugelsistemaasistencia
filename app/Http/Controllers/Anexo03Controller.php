@@ -52,7 +52,7 @@ class Anexo03Controller extends Controller
             $imagenPerfil="";
             $modulo="repAnexo03";
 
-             // $fecharep=date("d/m/Y");
+             $fecharep=date("d/m/Y");
              // $fecha=date("Y-m-d");
 
             $anio=date("Y");

@@ -16,6 +16,8 @@ Route::get('/', function () {
     return redirect('login');
 });
 
+/* Route::get('/', 'LoginController@showLoginForm'); */
+
 Route::group(['middleware' => 'auth'], function () {
     //    Route::get('/link1', function ()    {
 //        // Uses Auth Middleware
